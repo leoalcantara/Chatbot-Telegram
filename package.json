@@ -1,0 +1,22 @@
+{
+  "name": "telegram-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot fit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoalcantara/Telegram-Chatbot.git"
+  },
+  "author": "Leonidio Alcantara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoalcantara/Telegram-Chatbot/issues"
+  },
+  "homepage": "https://github.com/leoalcantara/Telegram-Chatbot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
