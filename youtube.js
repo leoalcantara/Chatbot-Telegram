@@ -5,9 +5,9 @@ const youtube = new Youtube();
 
 youtube.setKey(config.key);
 
-youtube.search('Exercícios em Casa', 10, function(error, result){
+youtube.search('Exercícios de braços em Casa', 2, function(error, result){
     if(!error){
-        console.log(JSON.stringify(result, null, 2));
+        console.log(JSON.stringify(result, null, 2));        
     } else {
         console.log('Deu erro!');
     }
